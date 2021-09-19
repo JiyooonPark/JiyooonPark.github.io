@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Jiyoon Park</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scrollbar Custom CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
+    <!-- Bootstrap Icon CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Awesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>Jiyoon Park</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+          <img
+            src="/img/disney.jpg"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Responsive image"
+          />
+          <li>
+            <a href="#about-me">About</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#honors-and-awards">Honors & Awards</a>
+          </li>
+          <li>
+            <a href="#research">Research Experience</a>
+          </li>
+          <li>
+            <a href="#publication">Publication & Patents</a>
+          </li>
+          <li class="active">
+            <a
+              href="#homeSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Projects</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="#ciyn">CIYN</a>
+              </li>
+              <li>
+                <a href="#meme">Autonomous Cart</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#teaching">Teaching Experience</a>
+          </li>
+        </ul>
+
+        <ul class="list-unstyled CTAs">
+          <li>
+            <a
+              href="https://bootstrapious.com/tutorial/files/sidebar.zip"
+              class="download"
+              >Download CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+
+      <div id="content">
+        <div class="about-page" id="about-me">
+          <h1 id="name"><b>Jiyoon Park</b></h1>
+          <p id="links">
+            <a href="mailto:jypark.jiyoon@gmail.com" target="#"
+              ><i class="bi bi-envelope"></i
+            ></a>
+            <a href="https://www.github.com/JiyooonPark" target="#"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a href="https://instagram.com/park.jiyoon.330" target="#"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://github.com/JiyooonPark" target="#"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </p>
+
+          <p id="intro">
+            Hello, I am a CS undergraduate student at
+            <a>Ewha Womens University</a>. My research interests cover robotics,
+            optimization and RCI; specifically mobile base robot trajectory
+            planning, set cover problems and NP-Programming.
+          </p>
+        </div>
+
+        <div class="education-page" id="education">
+          <h1 class="page-title">Education</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-2">
+                <img src="/img/ewha-logo-png.png" style="width: 80%" />
+              </div>
+              <div class="col-8">
+                <h2>
+                  <a href="http://www.ewha.ac.kr/ewhaen/index.do" target="#"
+                    >Ewha Womens University</a
+                  >
+                </h2>
+                <p>
+                  BS in Computer Science double majoring in Scientific
+                  computation
+                </p>
+                <p>Graduating in 3 years / Graduating with Summa Cum Laude</p>
+              </div>
+              <div class="col-2">2018-2022</div>
+            </div>
+            <div class="line"></div>
+
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Collapsible Group Item #1
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <table class="table table-sm table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Term</th>
+                          <th colspan="3">Course</th>
+                          <th scope="col">Grade</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>2019</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td colspan="3">Otto</td>
+                          <td colspan="1">A+</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="honors-and-awards-page" id="honors-and-awards">
+          <h1 class="page-title">Awards</h1>
+          <table class="table table-hover table-dark">
+            <tbody>
+              <tr>
+                <td colspan="3"><b>Best Undergrad Researcher</b></td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp; For the paper “TSP Art using a Mobile Manipulator
+                  Robot" by The Korea Computer Graphics Society
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Ewha Capstone Design Project Contest</b></td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;2nd out of 00 temas for the project “Autonomous Cart
+                  using ROS”
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Ewha Startup Contest</b></td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Came in 1st place for the “Autonomous Cart using ROS”
+                  project
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Ewha Sharing Story Writing Contest</b></td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Came in 4th for the short essay “A form of undefined
+                  love: share”
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h1 class="page-title">Honors</h1>
+          <table class="table table-hover table-dark">
+            <tbody>
+              <tr>
+                <td colspan="3"><b>Honors Scholarship</b></td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;For Students who are within top 2% in Department
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Admission Scholarship</b></td>
+                <td>2018, 2019, 2020, 2021</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Entered University with 4-year full scholarship
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Mentoring Scholarship</b></td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Participated as mentor for HOKMA College mentoring
+                  program
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b>Debate Club Activity Scholarship</b></td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Came in 4th for the short essay “A form of undefined
+                  love: share”
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b> Peer Instructor Scholarship </b></td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Came in 4th for the short essay “A form of undefined
+                  love: share”
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3"><b> One Stop Tutor Scholarship </b></td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  &emsp;Came in 4th for the short essay “A form of undefined
+                  love: share”
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="research-page" id="research">
+          <h1 class="page-title">Research</h1>
+          <h2>TSP Pen Art using a Mobile Manipulator Robot</h2>
+          <h4 style='margin:2% 0%'>
+            <a href="http://graphics.ewha.ac.kr/TSPArt/" target="#"
+              ><i class="bi bi-house-door"></i
+            ></a>
+            <a href="/papers/KCGS.pdf" target="#"
+            ><i class="bi bi-file-earmark-pdf-fill"></i></a
+          >
+          <a href="/papers/KCGS-PPT.pdf"><i class="bi bi-file-earmark-ppt"></i></a>
+          </h4>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/REwEqp1ODug?autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3wg57vq3o9Q?autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p>
+            We present a robotic pen-drawing system that is capable of
+            replicating images on a large-scale surface using TSP art. We use
+            the Traveling Salesman Problem (TSP) to convert arbitrary input
+            raster images into robot drawable vector images. Our robotic system
+            relies on an industrial seven-degree-of-freedom (7DoF) manipulator
+            that is placed on top of a holonomic mobile base robot. Our system
+            uses the mobile base to draw the converted vector image on large
+            surfaces. We demonstrate that our system can generate vector images
+            for robotic drawing using weighted Voronoi Stippling and TSP Art to
+            create pen art with a high replication rate on large surfaces.
+          </p>
+        </div>
+        <div class="publication-page" id="publication">
+          <h1 class="page-title">Publication</h1>
+          <h2>TSP Pen Art using a Mobile Manipulator Robot</h2>
+          <a href="/papers/KCGS.pdf" target="#"
+            ><i class="bi bi-file-earmark-pdf-fill">Abstract Paper(KR)</i></a
+          >
+        </div>
+        <div class="teaching-page" id="teaching">
+          <h1 class="page-title">Teaching</h1>
+          <table class="table table-dark">
+            <tbody>
+              <tr>
+                <td colspan="3"><b>Honors Scholarship</b></td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  For Students who are within top 2% in Department
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="project-page" id="project">
+          <h1 class="page-title">Projects</h1>
+          <button type="button" class="collapsible" id="ciyn">
+            CIYN: Course Information You Need
+          </button>
+          <div class="col-content">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/bgR-o2IRkEE?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/bDnmZaZexwY?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>Lorem ipsum...</p>
+          </div>
+          <button type="button" class="collapsible" id="meme">
+            MEME: Autonomous Driving Cart Using ROS
+          </button>
+          <div class="col-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qyrb6etrm1o?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+          theme: "minimal",
+        });
+
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar, #content").toggleClass("active");
+          $(".collapse.in").toggleClass("in");
+          $("a[aria-expanded=true]").attr("aria-expanded", "false");
+        });
+      });
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
