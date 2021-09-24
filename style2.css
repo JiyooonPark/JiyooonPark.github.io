@@ -181,7 +181,7 @@ a.article, a.article:hover {
     display: inline-block;
     width: calc(100% - 250px);
     min-height: 100vh;
-    height:fit-content;
+    height: fit-content(20em);
     transition: all 0.3s;
     position: absolute;
     top: 0;
