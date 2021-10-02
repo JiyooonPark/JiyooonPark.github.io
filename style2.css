@@ -181,7 +181,7 @@ a.article, a.article:hover {
     display: inline-block;
     width: calc(100% - 250px);
     min-height: 100vh;
-    height: fit-content(20em);
+    height: auto;
     transition: all 0.3s;
     position: absolute;
     top: 0;
@@ -202,15 +202,19 @@ a.article, a.article:hover {
 
 #content .education-page {
     padding: 10% 10%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 #content .education-page #school {
     margin: 2% 0% 5% 0%;
 }
 
+
+
 #content .honors-and-awards-page {
     padding: 5% 10%;
+    height: auto;
     min-height: 100vh;
 }
 
@@ -220,7 +224,8 @@ a.article, a.article:hover {
 
 #content .research-page {
     padding: 10% 10%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 #content .research-page #school {
@@ -229,7 +234,8 @@ a.article, a.article:hover {
 
 #content .publication-page {
     padding: 10% 10%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 #content .publication-page #school {
@@ -238,7 +244,8 @@ a.article, a.article:hover {
 
 #content .teaching-page {
     padding: 10% 10%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 #content .teaching-page #school {
@@ -247,6 +254,7 @@ a.article, a.article:hover {
 
 #content .project-page {
     padding: 10% 10%;
+    height: auto;
     min-height: 100vh;
 }
 
@@ -258,6 +266,16 @@ a.article, a.article:hover {
     padding: 2% 0.5%;
 }
 
+/* ---------------------------------------------------
+    TABLE
+----------------------------------------------------- */
+table, th, td, tbody {
+    border: 2px solid black;
+    font-size: large;
+  }
+#headingOne{
+
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
