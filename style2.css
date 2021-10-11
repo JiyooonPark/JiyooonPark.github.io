@@ -4,40 +4,45 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 * {
-    /*font-family: 'Playfair Display', serif;*/
-    /* font-family: 'Playfair Display', serif; */
-    font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Playfair Display', serif;*/
+  /* font-family: 'Playfair Display', serif; */
+  font-family: "Open Sans", sans-serif;
 }
 
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+p {
+  font-size: large;
 }
 
 .navbar {
-    padding: 15px 10px;
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-btn {
-    box-shadow: none;
-    outline: none !important;
-    border: none;
+  box-shadow: none;
+  outline: none !important;
+  border: none;
 }
 
 .line {
-    width: 100%;
-    height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
 }
 
 /* ---------------------------------------------------
@@ -45,95 +50,97 @@ a, a:hover, a:focus {
 ----------------------------------------------------- */
 
 .wrapper {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 #sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    z-index: 999;
-    background: #2e3033;
-    color: #fff;
-    transition: all 0.3s;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #2e3033;
+  color: #fff;
+  transition: all 0.3s;
 }
 
 #sidebar.active {
-    margin-left: -250px;
+  margin-left: -250px;
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: #2e3033;
+  padding: 20px;
+  background: #2e3033;
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid 47494d;
+  padding: 20px 0;
+  border-bottom: 1px solid 47494d;
 }
 
 #sidebar ul p {
-    color: #fff;
-    padding: 10px;
+  color: #fff;
+  padding: 10px;
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
 }
 
 #sidebar ul li a:hover {
-    color: #2e3033;
-    background: #798fb5;
+  color: #000000;
+  background: #736286;
 }
 
-#sidebar ul li.active>a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #2e3033;
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #2e3033;
 }
 
 a[data-toggle="collapse"] {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
 }
 
 ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #474e5c;
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #474e5c;
 }
 
 ul.CTAs {
-    padding: 20px;
+  padding: 20px;
 }
 
 ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 a.download {
-    background: #fff;
-    color: #7386D5;
+  background: #fff;
+  color: #000000;
 }
 
-a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+a.article,
+a.article:hover {
+  background: #6d7fcc !important;
+  color: #fff !important;
 }
 
 /* ---------------------------------------------------
@@ -141,161 +148,161 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 
 #content .table {
-    font-size: 90%;
-    margin-top: 1%;
-    border-radius: 3px;
+  font-size: 90%;
+  margin-top: 1%;
+  border-radius: 3px;
 }
 
 #content .table thead tr th {
-    font-size: 90%;
-    padding: 1% 2%;
+  font-size: 90%;
+  padding: 1% 2%;
 }
 
 #content .table tbody tr td {
-    font-size: 90%;
-    padding: 1% 2%;
+  font-size: 90%;
+  padding: 1% 2%;
 }
 
 #content #intro {
-    font-size: x-large;
-    color: black;
+  font-size: x-large;
+  color: black;
 }
 
 #content #name {
-    font-size: xxx-large;
-    color: black;
+  font-size: xxx-large;
+  color: black;
 }
 
 #content #links {
-    font-size: x-large;
-    color: black;
+  font-size: x-large;
+  color: black;
 }
 
 #content .page-title {
-    margin: 3% 0%;
-    font-size: 40px;
-    font-weight: bold;
+  margin: 3% 0%;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #content {
-    display: inline-block;
-    width: calc(100% - 250px);
-    min-height: 100vh;
-    height: auto;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
+  display: inline-block;
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  height: auto;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #content.active {
-    width: 100%;
+  width: 100%;
 }
 
 #content .about-page {
-    padding: 30% 10%;
+  padding: 30% 10%;
 }
 
 #content .about-page #name {
-    margin: 2% 0%;
+  margin: 2% 0%;
 }
 
 #content .education-page {
-    padding: 10% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 10% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .education-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
-
-
 #content .honors-and-awards-page {
-    padding: 5% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 5% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .honors-and-awards-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
 #content .research-page {
-    padding: 10% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 10% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .research-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
 #content .publication-page {
-    padding: 10% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 10% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .publication-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
 #content .teaching-page {
-    padding: 10% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 10% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .teaching-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
 #content .project-page {
-    padding: 10% 10%;
-    height: auto;
-    min-height: 100vh;
+  padding: 10% 10%;
+  height: auto;
+  min-height: 100vh;
 }
 
 #content .project-page #school {
-    margin: 2% 0% 5% 0%;
+  margin: 2% 0% 5% 0%;
 }
 
 #content .project-page .col-content {
-    padding: 2% 0.5%;
+  padding: 2% 0.5%;
 }
 
 /* ---------------------------------------------------
     TABLE
 ----------------------------------------------------- */
-table, th, td, tbody {
-    border: 2px solid black;
-    font-size: large;
-  }
-#headingOne{
-
+table,
+th,
+td,
+tbody {
+  border: 2px solid black;
+  font-size: large;
+}
+#headingOne {
 }
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-    #content {
-        width: 100%;
-    }
-    #content.active {
-        width: calc(100% - 250px);
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+  }
+  #content.active {
+    width: calc(100% - 250px);
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
 }
 
 /* ---------------------------------------------------
@@ -303,32 +310,33 @@ table, th, td, tbody {
 ----------------------------------------------------- */
 
 .collapsible {
-    background-color: rgb(61, 54, 54);
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    border-radius: 10px;
+  background-color: rgb(61, 54, 54);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
-.active, .collapsible:hover {
-    background-color: rgb(51, 45, 45);
-    color: white;
-    border-radius: 10px;
+.active,
+.collapsible:hover {
+  background-color: rgb(51, 45, 45);
+  color: white;
+  border-radius: 10px;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 
 .content-collapsible {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    border-radius: 10px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }
