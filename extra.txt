@@ -1,7 +1,0 @@
-<ul class="list-unstyled CTAs">
-          <li>
-            <a href="/cv/JiyoonPark.pdf" target="#" class="download"
-              ><b>Curriculum Vitae</b></a
-            >
-          </li>
-        </ul>

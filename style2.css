@@ -11,6 +11,9 @@ html {
   /* font-family: 'Playfair Display', serif; */
   font-family: "Open Sans", sans-serif;
 }
+body{
+  background-color: #bfc5db;
+}
 
 a,
 a:hover,
@@ -143,7 +146,9 @@ a.article:hover {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
+#content{
+  background-color: #bfc5db ;
+}
 #content .table {
   font-size: 90%;
   margin-top: 1%;
@@ -279,6 +284,26 @@ tbody {
   font-size: large;
 }
 #headingOne {
+  background-color: #bfc5db;
+  padding: 0%;
+}
+#headingTwo {
+  background-color: #bfc5db;
+  border-style:none;
+  padding: 0%;
+}
+
+.card-header {
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  padding: none;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: #bfc5db;
+  border: 2px solid #bfc5db;
 }
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -308,7 +333,7 @@ tbody {
 
 .collapsible {
   background-color: rgb(61, 54, 54);
-  color: white;
+  color: #bfc5db;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -334,6 +359,11 @@ tbody {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #bfc5db;
   border-radius: 10px;
+}
+
+.pad {
+  padding-top: 100px;
+  padding-left: 80px;
 }
